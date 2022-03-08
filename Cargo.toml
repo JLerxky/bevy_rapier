@@ -6,6 +6,7 @@ resolver = "2"
 codegen-units = 1
 
 [patch.crates-io]
+bevy = { git = "https://github.com/bevyengine/bevy" }
 #nalgebra = { path = "../nalgebra" }
 #parry2d = { path = "../parry/build/parry2d" }
 #parry3d = { path = "../parry/build/parry3d" }

@@ -37,3 +37,6 @@ rapier3d = { version = "^0.12.0-alpha.0", default-features = false, features = [
 [dev-dependencies]
 #bevy_wgpu = "0.5"
 #bevy_winit = { version = "0.5", features = [ "x11" ] }
+
+[patch.crates-io]
+bevy = { git = "https://github.com/bevyengine/bevy" }
